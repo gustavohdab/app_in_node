@@ -47,7 +47,7 @@ This is a Node.js application that allows users to create and rate movies. Users
 1. Clone the repository using the following command:
 
 ```bash
-$ git clone
+$ git clone https://github.com/gustavohdab/app_in_node.git
 ```
 
 2. Navigate to the project directory:
