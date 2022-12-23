@@ -1,9 +1,34 @@
 <h1 align="center"> Movie Rating Application </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="#-tecnologias">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Features</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 </p>
+
+## 💻 Project
+
+This is a Node.js application that allows users to create and rate movies. Users can enter movie information such as name, description, and rating, as well as create tags related to the movie. The application uses a SQLite database to store movie and tag information.
+
+## 🚀 Dependencies
+
+<br>
+
+### This project uses the following dependencies:
+
+<br>
+
+- bcryptjs: used for hashing user passwords
+- express: a web framework for Node.js
+- express-async-errors: a middleware that allows express to handle async errors
+- knex: a SQL query builder
+- sqlite: a database library for Node.js
+- sqlite3: a database library for Node.js
+
+<br>
+
+---
+
+<br>
 
 ## Project Structure
 
@@ -22,13 +47,13 @@
 1. Clone the repository using the following command:
 
 ```bash
-$ git clone https://github.com/user/repo.git
+$ git clone
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-$ cd movie-rating-application
+$ cd your-project-directory-here
 ```
 
 3. Install the project dependencies:
@@ -73,22 +98,13 @@ http://localhost:3333
 - Implement pagination for movie and tag lists
 - Add a search feature to search for movies by name or tag
 
-## 🚀 Dependencies
+## License
 
-### This project uses the following dependencies:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-<br>
+## Acknowledgments
 
-- bcryptjs: used for hashing user passwords
-- express: a web framework for Node.js
-- express-async-errors: a middleware that allows express to handle async errors
-- knex: a SQL query builder
-- sqlite: a database library for Node.js
-- sqlite3: a database library for Node.js
-
-## 💻 Project
-
-This is a Node.js application that allows users to create and rate movies. Users can enter movie information such as name, description, and rating, as well as create tags related to the movie. The application uses a SQLite database to store movie and tag information.
+- This project was created as part of the [Rocketseat](https://rocketseat.com.br/explorer) Explorer Bootcamp.
 
 ---
 
